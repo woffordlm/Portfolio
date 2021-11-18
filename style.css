@@ -1,0 +1,26 @@
+:root {
+    --tan:peru;
+}
+
+body {
+    font-size: medium;
+    background-color:var(--tan) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 20px, 35px ;
+    display: flex;
+}
+
+header h1 {
+
+}
+
+header nav {
+    display: inline-block;
+}
+header a {
+    text-decoration: none;
+    
+}
