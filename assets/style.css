@@ -21,7 +21,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* background-image: url(/luke-wofford-portfolio/assets/images/landscape.JPG); */
+    background-image: url(./images/landscape.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -59,7 +59,7 @@ header nav ul li a {
 
 /* hero section */
 .hero {
-    background-image: url(/assets/images/landscape.JPG) ;
+    background-image: url(./images/landscape.jpg) ;
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -168,8 +168,7 @@ header nav ul li a {
   
   }
   .child-1  {
-    background-image:url(https://via.placeholder.com/150) ;
-    background-color: darkcyan;
+    background-image:url(./images/runbuddy.jpg) ;
     width: 90%;
     flex: 2;
     height: 500px;
@@ -207,8 +206,8 @@ header nav ul li a {
 .resume-child {
     flex: 1;
 }
-  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-/* @media screen and (max-width: 980px) {
+  MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+ @media screen and (max-width: 980px) {
     header {
       padding-bottom: 20px;
       justify-content: center;
@@ -320,4 +319,4 @@ header nav ul li a {
       width: 200px;
       height: 200px;
 }
-  } */
+  }
