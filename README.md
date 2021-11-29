@@ -1,7 +1,7 @@
 # Luke Wofford Portfolio
 
 ## Purpose
-A website that showcases Luke Wofford's portfolio of projects. 
+A website that showcases Luke Wofford's portfolio of projects and bio.
 
 ## Built With
 * HTML
