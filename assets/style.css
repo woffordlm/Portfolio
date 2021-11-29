@@ -84,7 +84,7 @@ header nav ul li a :hover {
 }
 
 section {
-    padding: 60px;
+    padding: 0px;
 }
 
 .flex-row {
@@ -99,11 +99,11 @@ section {
 
 .section-title {
     font-size: 48px;
-    border-bottom: 3px solid;
+    /* border-bottom: 3px solid; */
     color: var(--third-color);
-    padding-bottom: 20px;
+    padding: 20px;
     text-align: center;
-    margin: 0 auto 35px auto;
+    margin: 0 auto 0px auto;
     width: 50%;
   }
 
@@ -120,6 +120,10 @@ section {
     line-height: 2;
     font-size: 2vw;
   }
+
+  .bio-1 p {
+    
+  }
  
   .bio-2 {
     flex: 3;
@@ -128,11 +132,13 @@ section {
     font-size: 1.55vw;
     line-height: 1.5;
     background-color: var(--sec-color);
+    border-radius: 15px;
   }
 
   .image-bio img {
       height: 400px;
       width: 400px;
+      border-radius: 15px;
   }
   hr {
       width: 50%;
@@ -145,6 +151,9 @@ section {
   .app-parent {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
+      
+    
   }
   .app-parent a {
       text-decoration: none;
@@ -158,12 +167,20 @@ section {
     border: black solid 1px;
     height: 500px;
     flex: 1;
-    background-color: cadetblue;
     font-size: 3vw;
-    color:var(--third-color);
+    margin: 5px;
+    border-radius: 15px;
+    
+}
+.work h3 {
+  padding: 20px;
+}
+ .app-child a {
+  color: white;
+  
 }
 .child-1  {
-    background-image:url(./images/runbuddy.jpg) ;
+    background-image:url(./images/run-buddy.jpg) ;
     width: 90%;
     flex: 2;
     height: 500px;
@@ -176,15 +193,33 @@ section {
     background: position 80%;;
 
 }
-
-child
-.app-parent h3 {
-    background-color: cadetblue;
+.child-2 {
+  background-image:url(https://via.placeholder.com/150) ;
 }
+.app-parent h3 {
+    background-color;
+}
+.contact-me {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  margin-bottom: 20px;
+  width: 100%;
+  align-items: center;
+}
+
 .contact p {
-   text-align: center;
+   text-align:center;
    flex: 1;
-   
+   line-height: 2;
+}
+.resume-parent {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.resume-child {
+  flex: 1;
 }
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -215,8 +250,13 @@ child
     .bio-1 {
         text-align: center;
     }
+    .flex-row h2 {
+      font-size: 30px ;
+    }
     .bio-2 {
-        align-self: center;
+        /* align-self: center; */
+        font-size: 3vw;
+        margin: 0%;
     }
     .hero {
         display: none;
@@ -227,13 +267,69 @@ child
    
     .child-1 {
         width: 100%;
-        flex: 2;
-        background-image:url(/assets/images/runbuddy.jpg)
+  }
+
+
+    @media screen and (max-width: 568px) {
+      header {
+      padding-bottom: 0px;
+      justify-content: center;
+      position: relative;
     }
-    
-   
-
-
-    @media screen and (max-width: 768px) {
+  
+    header h1 {
+      width: 80%;
+      text-align: center;
+    }
+    .bio-1 img {
+      width: 300px;
+      height: 300px;
+      margin: 0px;
       
     }
+    .bio-2 {
+      font-size: 2.55vw;
+    }
+    header {
+      padding: 20px;
+      justify-content: center ;
+      position: relative;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+    .image-bio {
+      flex-direction: column;
+    }
+    .bio-1 {
+        text-align: center;
+    }
+    .bio-2 {
+        align-self: center;
+    }
+    .hero {
+        display: none;
+    }
+    .app-parent {
+        flex-direction: column;
+    }
+    .app-child {
+      margin:0;
+      margin-bottom: 5px;
+      
+      
+  
+ 
+  @media screen and (max-width: 568px) {
+    .bio-1 img {
+      width: 200px;
+      height: 200px;
+
+  }
