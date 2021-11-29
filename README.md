@@ -13,5 +13,5 @@ A website that showcases Luke Wofford's portfolio of projects.
 ![](images/screenshot3.jpg)
 
 ## Website
- https://woffordlm.github.io/portfolio/
+https://woffordlm.github.io/luke-wofford-portfolio/
 
