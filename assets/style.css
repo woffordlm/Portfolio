@@ -59,7 +59,7 @@ header nav ul li a {
 
 /* hero section */
 .hero {
-    background-image: url(./images/landscape.jpg) ;
+    background-image: url(./images/landscape.jpg)  ;
     height: 300px;
     background-size: cover;
     background-position: center;
