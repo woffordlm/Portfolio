@@ -21,7 +21,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-image: url(/assets/images/landscape.JPG);
+    /* background-image: url(/luke-wofford-portfolio/assets/images/landscape.JPG); */
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -102,7 +102,7 @@ header nav ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items:stretch ;
-  }
+}
 
 .bio-1  {
     flex:1 ;
@@ -168,7 +168,8 @@ header nav ul li a {
   
   }
   .child-1  {
-    background-image:url(/assets/images/runbuddy.jpg) ;
+    background-image:url(https://via.placeholder.com/150) ;
+    background-color: darkcyan;
     width: 90%;
     flex: 2;
     height: 500px;
@@ -207,7 +208,7 @@ header nav ul li a {
     flex: 1;
 }
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     header {
       padding-bottom: 20px;
       justify-content: center;
@@ -319,4 +320,4 @@ header nav ul li a {
       width: 200px;
       height: 200px;
 }
-  }
+  } */
