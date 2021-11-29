@@ -206,7 +206,7 @@ header nav ul li a {
 .resume-child {
     flex: 1;
 }
-  MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER  */
  @media screen and (max-width: 980px) {
     header {
       padding-bottom: 20px;
